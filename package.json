@@ -15,7 +15,6 @@
   "repository": "commonform/commonform-welcome-form",
   "scripts": {
     "prepublish": "commonform render --format native < index.cform | lispy-json > index.json",
-    "pretest": "npm run prepublish",
-    "test": "node test.js"
+    "test": "commonform lint < index.cform"
   }
 }
