@@ -1,0 +1,84 @@
+{ "content": [
+    { "form": {
+        "content": [
+          "Welcome to ",
+          { "definition": "Common Form" },
+          ", the Internet's free contract form file." ] },
+      "heading": "Welcome" },
+    { "form": {
+        "content": [
+          { "use": "Common Form" },
+          " is a system for storing interchangeable contract pieces. Each of those pieces is simple, but combined, they can make contracts complex enough for any need.",
+          { "form": {
+              "content": [
+                "This document is itself a ",
+                { "use": "Common Form" },
+                ". You've already noticed that it contains multiple sections. Some sections, like this one, appear within others." ] },
+            "heading": "Sections & Subsections" },
+          { "form": {
+              "content": [ "Section can have headings. Headings appear like \"This is a Heading\" above." ] },
+            "heading": "This is a Heading" },
+          { "form": {
+              "content": [
+                "Sections can also go without headings, like this one. Sections without headings are a common way to write lists. So, for example, you might write that the largest states in the United States are",
+                { "form": {
+                    "content": [ "Alaska" ] } },
+                { "form": {
+                    "content": [ "Texas" ] } },
+                { "form": {
+                    "content": [ "California" ] } },
+                "and then continue with a bit of text following the list. You could even go on to list some languages popularly spoken in the United States",
+                { "form": {
+                    "content": [ "English" ] } },
+                { "form": {
+                    "content": [ "Spanish" ] } },
+                { "form": {
+                    "content": [ "French" ] } },
+                "There's not limit the number of lists or text a section can contain." ] } },
+          { "form": {
+              "content": [
+                "You've also seen a definition: ",
+                { "use": "Common Form" },
+                ". Defined terms can be used elsewhere in a form. Click a defined term to jump to its definition." ] },
+            "heading": "Definitions" },
+          { "form": {
+              "content": [
+                { "use": "Common Form" },
+                " is defined in ",
+                { "reference": "Welcome" },
+                ". The sentence just before has a reference, in that case to the section above with the heading \"Welcome\". References are turned into prose, like \"Section 1\", when you save to Microsoft Word DOCX format." ] },
+            "heading": "References" },
+          { "form": {
+              "content": [
+                "Forms can also have blanks to be filled in later, with notes about what goes where. So: \"Welcome to ",
+                { "use": "Common Form" },
+                ", ",
+                { "blank": "" },
+                "! How is the weather in ",
+                { "blank": "" },
+                "?\"" ] },
+            "heading": "Blanks" },
+          "That's about all there is to how ",
+          { "use": "Common Form" },
+          " understands contract pieces." ] },
+      "heading": "What Common Forms Are Made Of" },
+    { "form": {
+        "content": [
+          { "use": "Common Form" },
+          " is smart enough to identify some kinds of problems with forms. You will see annotations by sections that contain such problems.",
+          { "form": {
+              "content": [
+                "If a form tries to use a ",
+                { "use": "Term" },
+                " that isn't defined. ",
+                { "use": "Common Form" },
+                " will notice and show an error. The same is true for references to sections (by heading) that don't appear in the document. For instance, this reference to ",
+                { "reference": "A Heading that Doesn't Appear in this Introduction" },
+                "." ] },
+            "heading": "Structural Errors" },
+          { "form": {
+              "content": [
+                { "use": "Common Form" },
+                " also points out archaic words, wordy phrases, and other stylistic problems. Whether the stylistic choices whereof I speak are acceptable is up to you." ] },
+            "heading": "Style" } ] },
+      "heading": "Annotations" } ] }
