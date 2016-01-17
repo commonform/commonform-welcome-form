@@ -1,10 +1,8 @@
 {
   "name": "commonform-welcome-form",
-  "version": "1.0.0",
   "description": "Common Form welcome for commonform.org",
+  "version": "1.0.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
-  "repository": "commonform/commonform-welcome-form",
-  "license": "CC0-1.0",
   "devDependencies": {
     "commonform-cli": "^0.12.0",
     "commonform-validate": "^0.6.0",
@@ -13,6 +11,8 @@
   "files": [
     "index.json"
   ],
+  "license": "CC0-1.0",
+  "repository": "commonform/commonform-welcome-form",
   "scripts": {
     "prepublish": "commonform render --format native < index.cform | lispy-json > index.json",
     "pretest": "npm run prepublish",
