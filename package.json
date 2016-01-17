@@ -6,12 +6,15 @@
   "repository": "commonform/commonform-welcome-form",
   "license": "CC0-1.0",
   "devDependencies": {
-    "commonform-validate": "^0.6.0"
+    "commonform-cli": "^0.12.0",
+    "commonform-validate": "^0.6.0",
+    "lispy-json": "^1.1.2"
   },
   "files": [
     "index.json"
   ],
   "scripts": {
+    "prepublish": "commonform render --format native < index.cform | lispy-json > index.json",
     "test": "node test.js"
   }
 }
