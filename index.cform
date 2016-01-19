@@ -4,17 +4,17 @@
 
         \ Text \ A <Common Form> can contain text like this.
 
-        \ Definitions \ You've also seen a definition: <Common Form>. Defined terms can be used elsewhere in a form. Click a defined term to jump to its definition.
+        \ Definitions \ The term <Common Form> was defined earlier. Click any use of a defined term, like <Common Form>, to jump to its definition.
 
-        \ References \ <Common Form> is defined in {Welcome}. The sentence just before has a reference to the <Common Form> above with the heading "Welcome".
+        \ References \ <Common Form> is defined in {Welcome}. Client any reference to jump to the text it refers to.
 
-        \ Blanks \ <Common Form> text may include blank spaces to be filled in later. For example: "Welcome to <Common Form>, []! How is the weather in []?"
+        \ Blanks \ <Common Form> text may include blank spaces to be filled in later. For example: <Buyer> shall pay <Seller> [price]. Click and type in a blank to fill it in.
 
-        \ Common Forms within Common Forms \ A <Common Form> can also contain another <Common Form>, or many of them. This <Common Form> is actually made of several others: Each of {Text}, {Definitions}, {References}, and {Blanks} is a <Common Form>, for example. Just as you might build a traditional form contract by combining sections and exhibits, you can build even a very complex <Common Form> bit by bit.
+        \ Common Forms within Common Forms \ A <Common Form> can also contain another <Common Form>, or many of them. This <Common Form> is actually made of several others: Each of {Text}, {Definitions}, {References}, and {Blanks} is itself a <Common Form>. Just as you might build a traditional form contract by combining sections, you can build even a very complex <Common Form> bit by bit.
 
         \ This is a Heading \ A <Common Form> within another <Common Form> may have a heading. Headings appear like "This is a Heading".
 
-        \\ A <Common Form> in a <Common Form> may also appear without a heading, like this one. This makes for a clean way to create  lists. So, for example, you might write that the largest states in the United States are
+        \\ A <Common Form> in a <Common Form> may also appear without a heading, like this one. This makes for a clean way to create  lists. For example, a list of the largest states of the United States:
 
             \\ Alaska
 
@@ -22,14 +22,4 @@
 
             \\ California
 
-        and then continue with a bit of text following the list. You could even go on to list some languages popularly spoken in the United States
-
-            \\ English
-
-            \\ Spanish
-
-            \\ French
-
-        There's not limit the number of lists or text a section can contain.
-
-        \\ That's about all there is to a <Common Form>!
+        This bit of text follows the list above in the same <Common Form>.
